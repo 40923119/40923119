@@ -133,11 +133,10 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">首頁 << <a href='首頁.html'>Previous</a> <a href='HW1.html'>Next</a> >> HW1<br /><h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<br />首頁 << <a href='首頁.html'>Previous</a> <a href='HW1.html'>Next</a> >> HW1</div>
+    <div id="tipue_search_content">如何建立 CMSiMDE 子模組 << <a href='如何建立 CMSiMDE 子模組.html'>Previous</a> <a href='兩種不同的 git clone.html'>Next</a> >> 兩種不同的 git clone<br /><h1>為何需要以子模組的設計</h1>
+<p><span>在一個倉儲中帶有子模組的用意是善用分散式設計的做法, 子模組代表一個非由倉儲管理者維護權限所及的單位模組. 意即, 倉儲中程式的執行需要子模組中的資料, 但是倉儲擁有者將子模組視為獨立元件, 並不需要對子模組的內容進行改版. 一旦子模組原始倉儲資料更新, 採用子模組的各倉儲所有者可以決定是否配合跟進, 若不跟進仍有使用既有版本的子模組繼續運作, 原始子模組與採用不同版本子模組的倉儲都不會彼此受到影響.</span></p>
+<div id="tipue_search_content">
+<br />如何建立 CMSiMDE 子模組 << <a href='如何建立 CMSiMDE 子模組.html'>Previous</a> <a href='兩種不同的 git clone.html'>Next</a> >> 兩種不同的 git clone</div>
         
     <!-- footer -->
       <div class="container">
