@@ -1,0 +1,239 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40923119 cp2020</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40923119 cp2020</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='首頁.html'>首頁</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li class='has-children'><a href='PCH7 Expansion Cards Audio Video and Storage.html'>PCH7 Expansion Cards Audio Video and Storage</a><ul class='dropdown'><li><a href='Overview.html'>Overview</a><li><a href='AGP Slots.html'>AGP Slots</a><li><a href='Processors.html'>Processors</a><li><a href='Video Displays and Video Cards.html'>Video Displays and Video Cards</a><li><a href='Install and Configure Expansion Cards.html'>Install and Configure Expansion Cards</a><li><a href='Storage Devices Overview.html'>Storage Devices Overview</a><li><a href='Storage Devices Hard Disk Drives.html'>Storage Devices Hard Disk Drives</a><li><a href='Storage Devices Drive Interfaces.html'>Storage Devices Drive Interfaces</a><li><a href='Storage Devices Hot Swapping.html'>Storage Devices Hot Swapping</a></li></li></ul></ul><li class='has-children'><a href='cmsimde.html'>cmsimde</a><ul class='dropdown'><li class='has-children'><a href='Cmsimde程式架構.html'>Cmsimde程式架構</a><ul class='dropdown'><li><a href='Copyright 2020 All rights reserved  This template is made with  by Colorlib.html'>Copyright 2020 All rights reserved  This template is made with  by Colorlib</a><li><a href='為何需要網際內容管理.html'>為何需要網際內容管理</a><li><a href='如何建立 CMSiMDE 子模組.html'>如何建立 CMSiMDE 子模組</a><li><a href='為何需要以子模組的設計.html'>為何需要以子模組的設計</a><li><a href='兩種不同的 git clone.html'>兩種不同的 git clone</a><li><a href='假如 CMSiMDE 不設為子模組.html'>假如 CMSiMDE 不設為子模組</a><li><a href='為何需要有動態網頁與靜態網頁.html'>為何需要有動態網頁與靜態網頁</a><li><a href='CMSiMDE 有甚麼使用上的限制嗎比方說能夠使用那些特殊符號 為什麼不能使用分號 以及所謂的標題有沒有最多幾個字元的限制 另外就是假如標題過長 會發生甚麼狀況與後果.html'>CMSiMDE 有甚麼使用上的限制嗎比方說能夠使用那些特殊符號 為什麼不能使用分號 以及所謂的標題有沒有最多幾個字元的限制 另外就是假如標題過長 會發生甚麼狀況與後果</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">Install and Configure Expansion Cards << <a href='Install and Configure Expansion Cards.html'>Previous</a> <a href='Storage Devices Hard Disk Drives.html'>Next</a> >> Storage Devices Hard Disk Drives<br /><h1>Storage Devices Overview</h1>
+<p id="N1068F" lang="">As we discussed in a previous module, storage is one function that makes a computer a computer. So, storage devices are a critical component. Storage devices hold all of the bits and bytes that make up the data we process, photographs, music, and more. There are many different types of storage devices used with modern computers, including hard drives, optical drives, and external drives. Some computers still have legacy storage devices such as floppy disks.</p>
+<p lang="">Storage Devices: Optical Drives</p>
+<div class="section" id="N10692">
+<div class="sectionContain">
+<p id="N10699" lang="">Optical drives refer to any disk drive that uses optical media, such as CDs, DVDs, or Blu-ray disks. Each disk has a different storage capacity due to the different wavelength of light the laser uses to read the disk, with shorter wavelengths enabling more data to be stored in the same physical space. CDs use infrared light, which has a long wavelength. DVDs use a red laser light, a light with a medium wavelength. Blu-ray uses a blue laser light, which has the shortest wavelength. A CD can hold 700 MB of data, or 80 minutes of music, a DVD can hold 4.7 GB on a standard disc and 8.4 GB on a dual-layer disc. Blu-ray disks can hold 25 GB on a standard disk and 50 GB on a dual-layer disc. Most contemporary workstations have a DVD writer, but Blu-ray writers are becoming more common. Also, each successive technology is backward compatible with the others, therefore a Blu-ray player can also read DVDs and CDs. However, a CD or DVD player cannot read a Blu-ray.</p>
+<p id="N1069C" lang="">The different devices use different nomenclature for their capabilities. A CD-ROM, DVD-ROM, and BD-ROM (Blu-ray) all indicate that the device is a read-only memory (ROM) device. A device that is recordable only once is identified with an “R.” On a CD-R, DVD-R, DVD+R or BD-R, the contents of the disc cannot be changed after writing it the first time. The third category of devices are identified as “RW” devices, and known as write-many, write/rewrite, or erasable. This category includes CD-RW, DVD-RW, DVD+RW, DVD-RAM, and the BD-RE disc types.</p>
+<p id="N1069F" lang="">The speed of an optical drive is described using an “X-rating.” The original CD players could read at 1X (one times), or 150 KBps. The 1X speed is the speed at which your audio CD drive plays your favorite song. DVD players operate at 1.385 MBps (so that is the 1X speed for that type of device). Blu-ray players operate at 4.5 MBps. When buying a drive, you will see the rating listed, such as a 52X CD player, which means it operates 52 times as fast as the original 150 KBps, or 7800 KBps, which is 7.8 MBps. The 1X for each device is the equivalent to listening to a music CD, watching a DVD, or watching a Blu-ray movie in a traditional player.</p>
+<p lang="">Storage Devices: External Devices</p>
+</div>
+</div>
+<div class="section" id="external_devices">
+<div class="sectionContain">
+<p id="N106AC" lang="">eSATA is an extension of SATA used for external devices. The port looks identical to a regular SATA port and uses the same cables as a SATA port. Using eSATA can be thought of like using an extension cord. It brings the SATA port to the external portion of the computer's case. If your computer doesn’t have an eSATA port, you can purchase eSATA host adapters that fit in an expansion slot, such as a PCIe x1 or PCIe x4. The speed of eSATA can be 3–6 Gbps, which is very comparable to USB 3.0 speeds of 5 Gbps.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting an eSATA port with two screws on either side. The port is a small rectangle and a small copper filament can be seen inside." class="popimg" id="_i_0" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image18.png" title="Photograph depicting an eSATA port with two screws on either side. The port is a small rectangle and a small copper filament can be seen inside."/></span>
+<p id="N106B5" lang="">eSATA port. Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/8FV9Az" id="_i_1" lang="" target="_blank">yum 9 me</a>.</p>
+</div>
+<p id="N106BE" lang="">Another form of storage is the flash memory card. It is a type of memory that retains its contents without electricity and is very durable. These are commonly used in digital media players, cameras, and USB thumb drives. These cards come in an enormous variety with nearly 50 different types created, but only a few have become common. These common cards include SD, MMC, Memory Stick, and XD. Some computers have built-in readers for these cards with memory slots, but if your computer doesn’t, an external multi-slot card reader can be added by USB for about $10.</p>
+<div class="imagewrap"><span class="image"><img alt="A photograph depicting five flash memory cards. Three of the cards are 4 GB and are labeled SanDisk Extreme III. One memory card is labeled SanDisk 4.0 GB. One memory card is labeled CompactFlash 1 GB." class="popimg" id="_i_2" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image19.png" title="A photograph depicting five flash memory cards. Three of the cards are 4 GB and are labeled SanDisk Extreme III. One memory card is labeled SanDisk 4.0 GB. One memory card is labeled CompactFlash 1 GB."/></span>
+<p id="N106C7" lang="">Flash memory cards. Photo used under CC-BY-ND license from<span> </span><a href="https://flic.kr/p/6nTw9A" id="_i_3" lang="" target="_blank">Sam-Cat</a>.</p>
+</div>
+<p id="N106D0" lang="">USB flash drives are commonplace today and have replaced floppy disks as the removable media of choice. They are small in physical size and large in memory capability, with the ability to store 64 GB or more of data on a single “stick.” They are popular and easy to use, since they don’t require a special card reader, because the USB device has one built-in. They are often formatted with the FAT-16, FAT-32, or exFAT file system and are ready to use straight out of the box. Simply plug the device into an available USB port, the operating system recognizes it, and you can begin copying, deleting, and modifying files.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting a USB flash drive. It is blue plastic and rectangular. There is a cap that is removed and set to the side, exposing the metal USB connector." class="popimg" id="_i_4" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image20.jpeg" title="Photograph depicting a USB flash drive. It is blue plastic and rectangular. There is a cap that is removed and set to the side, exposing the metal USB connector."/></span>
+<p id="N106D9" lang="">USB flash drive. Photo used with permission from<span> </span><a href="http://www.123rf.com/profile_vales1989" id="_i_5" lang="" target="_blank">123 RF</a>.</p>
+<p lang="">Storage Devices: External Devices</p>
+</div>
+</div>
+</div>
+<div class="section" id="N106E4">
+<div class="sectionContain">
+<p id="N106EB" lang="">Floppy disks dominated the removable storage arena until the late 1990s, and now they are nearly extinct in most organizations. While some removable USB thumb drives can store 64 GB or more of data, floppy disks usually only stored 1.44 MB of data. That means a single thumb drive can store the information from more than 60,000 floppy disks! Floppy disks used flexible magnetic media surrounded by a rigid plastic case. The most common floppy (shown in the bottom image) was the 3.5” floppy, which was named based on the diameter of the magnetic media inside the plastic case. It used to be commonplace to find a floppy disk drive on every computer, which was connected using a mini-molex or BERG power cable and a 34-pin internal IDE/PATA cable. Contemporary machines typically do not have these drives, as they have fallen out of favor with the public. If you have a need for a floppy drive, one can be purchased for less than $20 that can connect to your computer using your USB port. Windows always reserves the A:\ and B:\ drives for the floppy disk drive (FDD), even if your system doesn’t have one.</p>
+<div class="imagewrap"><span class="image"><img alt="A set of nine 3.5-inch floppy disks, three green and six yellow." class="popimg" id="_i_6" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image21.png" title="A set of nine 3.5-inch floppy disks, three green and six yellow."/></span>
+<p id="N106F4" lang="">3.5-inch floppy disks. Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/eGBmiq" id="_i_7" lang="" target="_blank">Grant Frederiksen</a>.</p>
+</div>
+<p id="N106FD" lang="">The final legacy storage device is the tape drive. Whereas FDDs are completely out of service today, tape drives are still used in some corporate environments. However, cloud computing is a natural solution to replace tape backups in enterprise environments because it not only automates the backup process but sends the data securely offsite. Tape drives were one of the first removable storage devices used to back up system data. Many home users now use external USB hard disks for this purpose, but many enterprise environments still rely on the tape drives, since they can store large amounts of data (up to 3 TB on a single tape), and can have that data easily transferred to a remote facility. Tapes can store data in native (1:1) or compressed (2:1) mode. A tape that can natively store 70 GB, in compressed mode can store 140 GB of data. Most tape drives connect via SCSI ports, but some can be found using IDE/PATA or SATA instead. Also, it is important to remember that if you are using a tape drive system, you must rotate your tapes to prevent them from getting worn out and have a good backup plan. The Tower of Hanoi is a common tape rotation system used by system administrators, and can be helpful in creating your rotational schema.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph of the front of a computer with a 5.25-inch FDD, a 3.5-inch FDD and a tape drive. The tape drive has a tape cassette inserted." class="popimg" id="_i_8" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image22.png" title="Photograph of the front of a computer with a 5.25-inch FDD, a 3.5-inch FDD and a tape drive. The tape drive has a tape cassette inserted."/></span>
+<p id="N10706" lang="">Tape drive. Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/eiZ84a" id="_i_9" lang="" target="_blank">VinceFL</a>.</p>
+<p>正如我們在上一個模塊中討論的那樣，存儲是一種使計算機成為計算機的功能。因此，存儲設備是關鍵組件。存儲設備保留構成我們處理的數據，照片，音樂等的所有位和字節。現代計算機使用許多不同類型的存儲設備，包括硬盤驅動器，光盤驅動器和外部驅動器。某些計算機仍具有舊式存儲設備，例如軟盤。</p>
+<p>存儲設備：光盤驅動器<br/>光盤驅動器是指使用光盤，CD或DVD或藍光光盤等任何光學介質的磁盤驅動器。由於激光讀取磁盤所使用的光波長不同，每個磁盤具有不同的存儲容量，而較短的波長使更多數據可以存儲在同一物理空間中。 CD使用的紅外光波長很長。 DVD使用紅色激光，即中等波長的光。藍光使用波長最短的藍色激光。 CD可以容納700 MB的數據或80分鐘的音樂，DVD可以在標準光盤上容納4.7 GB，在雙層光盤上可以容納8.4 GB。藍光磁盤在標準磁盤上可以容納25 GB，在雙層磁盤上可以容納50 GB。大多數當代工作站都有DVD刻錄機，但是藍光刻錄機正變得越來越普遍。同樣，每種連續技術都向後兼容，因此藍光播放器還可以讀取DVD和CD。但是，CD或DVD播放器無法讀取藍光。</p>
+<p>不同的設備為其功能使用不同的命名法。 CD-ROM，DVD-ROM和BD-ROM（藍光）均表示該設備是只讀存儲器（ROM）設備。只能記錄一次的設備用“ R”標識。在CD-R，DVD-R，DVD + R或BD-R上，第一次寫入後無法更改光盤的內容。第三類設備被標識為“ RW”設備，稱為多次寫入，寫入/重寫或可擦除。此類別包括CD-RW，DVD-RW，DVD + RW，DVD-RAM和BD-RE光盤類型。</p>
+<p>光盤驅動器的速度使用“ X等級”描述。原始CD播放器的讀取速度為1倍（一次）或150 KBps。 1X速度是音頻CD驅動器播放喜歡的歌曲的速度。 DVD播放器的運行速度為1.385 MBps（因此，該類型設備的速度為1倍）。藍光播放器的運行速度為4.5 MBps。購買驅動器時，您會看到列出的等級，例如52X CD播放器，這意味著它的運行速度是原始150 KBps或7800 KBps（7.8 MBps）的52倍。每個設備的1X等效於在傳統播放器中聆聽音樂CD，觀看DVD或觀看藍光電影。</p>
+<p>存儲設備：外部設備<br/>eSATA是用於外部設備的SATA的擴展。該端口看起來與常規SATA端口相同，並且使用與SATA端口相同的電纜。可以認為使用eSATA就像使用一根延長線。它將SATA端口連接到計算機機箱的外部。如果您的計算機沒有eSATA端口，則可以購買適合擴展插槽的eSATA主機適配器，例如PCIe x1或PCIe x4。 eSATA的速度可以達到3–6 Gbps，與USB 3.0的5 Gbps速度非常可比。</p>
+<p>描繪了eSATA端口的兩側帶有兩個螺釘的照片。該端口是一個小矩形，內部可以看到一條小的銅絲。<br/>eSATA端口。照片由yum 9 me按照CC-BY-NC-ND許可使用。</p>
+<p>另一種存儲方式是閃存卡。它是一種無需通電即可保留其內容的內存，並且非常耐用。這些通常用於數字媒體播放器，相機和USB拇指驅動器。這些卡種類繁多，創建了將近50種不同的類型，但只有少數幾種很常見。這些普通卡包括SD，MMC，Memory Stick和XD。某些計算機為這些帶有內存插槽的卡內置了讀卡器，但是如果您的計算機沒有，則可以通過USB添加外部多插槽讀卡器，價格約為10美元。</p>
+<p>一張描述五個閃存卡的照片。其中三張卡為4 GB，並標記為SanDisk Extreme III。一張存儲卡標記為SanDisk 4.0 GB。一張存儲卡標有CompactFlash 1 GB。<br/>閃存卡。照片由Sam-Cat根據CC-BY-ND許可使用。</p>
+<p>USB閃存驅動器在當今很普遍，並且已取代軟盤作為首選的可移動介質。它們的物理尺寸很小，內存容量也很大，能夠在單個“棒”上存儲64 GB或更多的數據。它們很受歡迎且易於使用，因為它們不需要特殊的讀卡器，因為USB設備內置了一個。它們通常使用FAT-16，FAT-32或exFAT文件系統進行格式化，並且可以直接使用。只需將設備插入可用的USB端口，操作系統即可識別它，然後您就可以開始復制，刪除和修改文件了。</p>
+<p>描繪USB閃存驅動器的照片。它是藍色塑料和矩形。有一個帽子被刪除並設置</p>
+<p id="N10680" lang="">Hard disk drives (HDDs) are by far the most important storage device used by a personal computer. These drives store all the user’s data files, applications, and operating systems. Whether the drive is internal or external, it is built the same way. Most drives are built from one or more double-sided platters of aluminum or glass that is coated with a magnetic surface. In the first hard drives, users were lucky to store a maximum of 5 MB of data, but now storage space of 500 GB to 3 TB is commonplace in most users’ workstations. Storage has certainly evolved into expansive storage capacities at minimal cost, with excellent performance speeds.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting an encased hard disk. It is a flat and rectangular metal box with a circular design on the top." class="popimg" id="_i_0" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image23.jpeg" title="Photograph depicting an encased hard disk. It is a flat and rectangular metal box with a circular design on the top."/></span>
+<p id="N10689" lang="">Hard disk. Copyright:<span> </span><a href="http://www.123rf.com/profile_karn2608" id="_i_1" lang="" target="_blank">karn 2608/123 RF Stock Photo</a>.</p>
+</div>
+<div class="imagewrap"><span class="image"><img alt="A photograph depicting the inner workings of a hard disk. The disk is circular, like a phonograph record, with an arm over it." class="popimg" id="_i_2" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image24.png" title="A photograph depicting the inner workings of a hard disk. The disk is circular, like a phonograph record, with an arm over it."/></span>
+<p id="N10698" lang="">Hard disk dissection. Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/4jcppM" id="_i_3" lang="" target="_blank">Roberto Fantana</a>.</p>
+<br />Install and Configure Expansion Cards << <a href='Install and Configure Expansion Cards.html'>Previous</a> <a href='Storage Devices Hard Disk Drives.html'>Next</a> >> Storage Devices Hard Disk Drives</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
